@@ -12,7 +12,7 @@ const path = require('path');
     await page.goto('https://www.dice.com/signin');
     await page.fill('input[type="email"]', 'saiganesh6323@gmail.com');
     await page.click('button[type="submit"]');
-    await page.fill('input[type="password"]', 'Lakshy@2025');
+    await page.fill('input[type="password"]', 'BUAHAHAH');
     await page.click('button[type="submit"]');
     await page.waitForTimeout(5000);
 
